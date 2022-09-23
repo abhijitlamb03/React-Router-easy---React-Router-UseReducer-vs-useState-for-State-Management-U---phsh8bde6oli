@@ -1,5 +1,7 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-export const Index = () => {
-  return <div id="index-page">Index Page</div>;
-};
+
+
+ReactDOM.render(<App />, document.getElementById("root"));
